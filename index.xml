@@ -33,64 +33,6 @@
     </item>
     
     <item>
-      <title>Carga de datos en R</title>
-      <link>https://somiedo.github.io/post/01-carga-de-datos/</link>
-      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://somiedo.github.io/post/01-carga-de-datos/</guid>
-      <description>&lt;p&gt;Indicamos el directorio de trabajo&lt;/p&gt;
-&lt;h2 id=&#34;carga-de-datos-desde-rstudio&#34;&gt;Carga de datos desde RStudio&lt;/h2&gt;
-&lt;p&gt;Son paquetes de datos utilizados tan frecuentemente que RStudio ya los incorpora&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;data(iris)
-head(iris)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;{
-{&amp;ldquo;columns&amp;rdquo;:[{&amp;ldquo;label&amp;rdquo;:[&amp;quot;&amp;quot;],&amp;ldquo;name&amp;rdquo;:[&amp;quot;&lt;em&gt;rn&lt;/em&gt;&amp;quot;],&amp;ldquo;type&amp;rdquo;:[&amp;quot;&amp;quot;],&amp;ldquo;align&amp;rdquo;:[&amp;ldquo;left&amp;rdquo;]},{&amp;ldquo;label&amp;rdquo;:[&amp;ldquo;Sepal.Length&amp;rdquo;],&amp;ldquo;name&amp;rdquo;:[1],&amp;ldquo;type&amp;rdquo;:[&amp;ldquo;dbl&amp;rdquo;],&amp;ldquo;align&amp;rdquo;:[&amp;ldquo;right&amp;rdquo;]},{&amp;ldquo;label&amp;rdquo;:[&amp;ldquo;Sepal.Width&amp;rdquo;],&amp;ldquo;name&amp;rdquo;:[2],&amp;ldquo;type&amp;rdquo;:[&amp;ldquo;dbl&amp;rdquo;],&amp;ldquo;align&amp;rdquo;:[&amp;ldquo;right&amp;rdquo;]},{&amp;ldquo;label&amp;rdquo;:[&amp;ldquo;Petal.Length&amp;rdquo;],&amp;ldquo;name&amp;rdquo;:[3],&amp;ldquo;type&amp;rdquo;:[&amp;ldquo;dbl&amp;rdquo;],&amp;ldquo;align&amp;rdquo;:[&amp;ldquo;right&amp;rdquo;]},{&amp;ldquo;label&amp;rdquo;:[&amp;ldquo;Petal.Width&amp;rdquo;],&amp;ldquo;name&amp;rdquo;:[4],&amp;ldquo;type&amp;rdquo;:[&amp;ldquo;dbl&amp;rdquo;],&amp;ldquo;align&amp;rdquo;:[&amp;ldquo;right&amp;rdquo;]},{&amp;ldquo;label&amp;rdquo;:[&amp;ldquo;Species&amp;rdquo;],&amp;ldquo;name&amp;rdquo;:[5],&amp;ldquo;type&amp;rdquo;:[&amp;ldquo;fctr&amp;rdquo;],&amp;ldquo;align&amp;rdquo;:[&amp;ldquo;left&amp;rdquo;]}],&amp;ldquo;data&amp;rdquo;:[{&amp;ldquo;1&amp;rdquo;:&amp;ldquo;5.1&amp;rdquo;,&amp;ldquo;2&amp;rdquo;:&amp;ldquo;3.5&amp;rdquo;,&amp;ldquo;3&amp;rdquo;:&amp;ldquo;1.4&amp;rdquo;,&amp;ldquo;4&amp;rdquo;:&amp;ldquo;0.2&amp;rdquo;,&amp;ldquo;5&amp;rdquo;:&amp;ldquo;setosa&amp;rdquo;,&amp;quot;&lt;em&gt;rn&lt;/em&gt;&amp;quot;:&amp;ldquo;1&amp;rdquo;},{&amp;ldquo;1&amp;rdquo;:&amp;ldquo;4.9&amp;rdquo;,&amp;ldquo;2&amp;rdquo;:&amp;ldquo;3.0&amp;rdquo;,&amp;ldquo;3&amp;rdquo;:&amp;ldquo;1.4&amp;rdquo;,&amp;ldquo;4&amp;rdquo;:&amp;ldquo;0.2&amp;rdquo;,&amp;ldquo;5&amp;rdquo;:&amp;ldquo;setosa&amp;rdquo;,&amp;quot;&lt;em&gt;rn&lt;/em&gt;&amp;quot;:&amp;ldquo;2&amp;rdquo;},{&amp;ldquo;1&amp;rdquo;:&amp;ldquo;4.7&amp;rdquo;,&amp;ldquo;2&amp;rdquo;:&amp;ldquo;3.2&amp;rdquo;,&amp;ldquo;3&amp;rdquo;:&amp;ldquo;1.3&amp;rdquo;,&amp;ldquo;4&amp;rdquo;:&amp;ldquo;0.2&amp;rdquo;,&amp;ldquo;5&amp;rdquo;:&amp;ldquo;setosa&amp;rdquo;,&amp;quot;&lt;em&gt;rn&lt;/em&gt;&amp;quot;:&amp;ldquo;3&amp;rdquo;},{&amp;ldquo;1&amp;rdquo;:&amp;ldquo;4.6&amp;rdquo;,&amp;ldquo;2&amp;rdquo;:&amp;ldquo;3.1&amp;rdquo;,&amp;ldquo;3&amp;rdquo;:&amp;ldquo;1.5&amp;rdquo;,&amp;ldquo;4&amp;rdquo;:&amp;ldquo;0.2&amp;rdquo;,&amp;ldquo;5&amp;rdquo;:&amp;ldquo;setosa&amp;rdquo;,&amp;quot;&lt;em&gt;rn&lt;/em&gt;&amp;quot;:&amp;ldquo;4&amp;rdquo;},{&amp;ldquo;1&amp;rdquo;:&amp;ldquo;5.0&amp;rdquo;,&amp;ldquo;2&amp;rdquo;:&amp;ldquo;3.6&amp;rdquo;,&amp;ldquo;3&amp;rdquo;:&amp;ldquo;1.4&amp;rdquo;,&amp;ldquo;4&amp;rdquo;:&amp;ldquo;0.2&amp;rdquo;,&amp;ldquo;5&amp;rdquo;:&amp;ldquo;setosa&amp;rdquo;,&amp;quot;&lt;em&gt;rn&lt;/em&gt;&amp;quot;:&amp;ldquo;5&amp;rdquo;},{&amp;ldquo;1&amp;rdquo;:&amp;ldquo;5.4&amp;rdquo;,&amp;ldquo;2&amp;rdquo;:&amp;ldquo;3.9&amp;rdquo;,&amp;ldquo;3&amp;rdquo;:&amp;ldquo;1.7&amp;rdquo;,&amp;ldquo;4&amp;rdquo;:&amp;ldquo;0.4&amp;rdquo;,&amp;ldquo;5&amp;rdquo;:&amp;ldquo;setosa&amp;rdquo;,&amp;quot;&lt;em&gt;rn&lt;/em&gt;&amp;quot;:&amp;ldquo;6&amp;rdquo;}],&amp;ldquo;options&amp;rdquo;:{&amp;ldquo;columns&amp;rdquo;:{&amp;ldquo;min&amp;rdquo;:{},&amp;ldquo;max&amp;rdquo;:[10]},&amp;ldquo;rows&amp;rdquo;:{&amp;ldquo;min&amp;rdquo;:[10],&amp;ldquo;max&amp;rdquo;:[10]},&amp;ldquo;pages&amp;rdquo;:{}}}
-}&lt;/p&gt;
-&lt;h2 id=&#34;carga-desde-un-archivo-csv&#34;&gt;Carga desde un archivo csv&lt;/h2&gt;
-&lt;p&gt;Podemos tener el archivo de datos en local (/data/Iris.csv)&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;iris_local &amp;lt;- read.csv(file=&amp;quot;data/Iris.csv&amp;quot;, 
-                       header=TRUE, # cabecera
-                       sep = &amp;quot;,&amp;quot;, # separador de campos
-                       na.strings=&amp;quot;&amp;quot;, # tratamiento de na
-                       stringsAsFactors=FALSE) # tratamiento de factores
-
-head(iris_local)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;div data-pagedtable=&#34;false&#34;&gt;
-  &lt;script data-pagedtable-source type=&#34;application/json&#34;&gt;
-{&#34;columns&#34;:[{&#34;label&#34;:[&#34;&#34;],&#34;name&#34;:[&#34;_rn_&#34;],&#34;type&#34;:[&#34;&#34;],&#34;align&#34;:[&#34;left&#34;]},{&#34;label&#34;:[&#34;Id&#34;],&#34;name&#34;:[1],&#34;type&#34;:[&#34;int&#34;],&#34;align&#34;:[&#34;right&#34;]},{&#34;label&#34;:[&#34;SepalLengthCm&#34;],&#34;name&#34;:[2],&#34;type&#34;:[&#34;dbl&#34;],&#34;align&#34;:[&#34;right&#34;]},{&#34;label&#34;:[&#34;SepalWidthCm&#34;],&#34;name&#34;:[3],&#34;type&#34;:[&#34;dbl&#34;],&#34;align&#34;:[&#34;right&#34;]},{&#34;label&#34;:[&#34;PetalLengthCm&#34;],&#34;name&#34;:[4],&#34;type&#34;:[&#34;dbl&#34;],&#34;align&#34;:[&#34;right&#34;]},{&#34;label&#34;:[&#34;PetalWidthCm&#34;],&#34;name&#34;:[5],&#34;type&#34;:[&#34;dbl&#34;],&#34;align&#34;:[&#34;right&#34;]},{&#34;label&#34;:[&#34;Species&#34;],&#34;name&#34;:[6],&#34;type&#34;:[&#34;chr&#34;],&#34;align&#34;:[&#34;left&#34;]}],&#34;data&#34;:[{&#34;1&#34;:&#34;1&#34;,&#34;2&#34;:&#34;5.1&#34;,&#34;3&#34;:&#34;3.5&#34;,&#34;4&#34;:&#34;1.4&#34;,&#34;5&#34;:&#34;0.2&#34;,&#34;6&#34;:&#34;Iris-setosa&#34;,&#34;_rn_&#34;:&#34;1&#34;},{&#34;1&#34;:&#34;2&#34;,&#34;2&#34;:&#34;4.9&#34;,&#34;3&#34;:&#34;3.0&#34;,&#34;4&#34;:&#34;1.4&#34;,&#34;5&#34;:&#34;0.2&#34;,&#34;6&#34;:&#34;Iris-setosa&#34;,&#34;_rn_&#34;:&#34;2&#34;},{&#34;1&#34;:&#34;3&#34;,&#34;2&#34;:&#34;4.7&#34;,&#34;3&#34;:&#34;3.2&#34;,&#34;4&#34;:&#34;1.3&#34;,&#34;5&#34;:&#34;0.2&#34;,&#34;6&#34;:&#34;Iris-setosa&#34;,&#34;_rn_&#34;:&#34;3&#34;},{&#34;1&#34;:&#34;4&#34;,&#34;2&#34;:&#34;4.6&#34;,&#34;3&#34;:&#34;3.1&#34;,&#34;4&#34;:&#34;1.5&#34;,&#34;5&#34;:&#34;0.2&#34;,&#34;6&#34;:&#34;Iris-setosa&#34;,&#34;_rn_&#34;:&#34;4&#34;},{&#34;1&#34;:&#34;5&#34;,&#34;2&#34;:&#34;5.0&#34;,&#34;3&#34;:&#34;3.6&#34;,&#34;4&#34;:&#34;1.4&#34;,&#34;5&#34;:&#34;0.2&#34;,&#34;6&#34;:&#34;Iris-setosa&#34;,&#34;_rn_&#34;:&#34;5&#34;},{&#34;1&#34;:&#34;6&#34;,&#34;2&#34;:&#34;5.4&#34;,&#34;3&#34;:&#34;3.9&#34;,&#34;4&#34;:&#34;1.7&#34;,&#34;5&#34;:&#34;0.4&#34;,&#34;6&#34;:&#34;Iris-setosa&#34;,&#34;_rn_&#34;:&#34;6&#34;}],&#34;options&#34;:{&#34;columns&#34;:{&#34;min&#34;:{},&#34;max&#34;:[10]},&#34;rows&#34;:{&#34;min&#34;:[10],&#34;max&#34;:[10]},&#34;pages&#34;:{}}}
-  &lt;/script&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;carga-desde-una-url&#34;&gt;Carga desde una url&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Desde GitHub nos aseguramos la forma Raw
-iris_url &amp;lt;- read.csv(file=&amp;quot;https://raw.githubusercontent.com/somiedo/Apuntes_R/main/data/Iris.csv&amp;quot;)
-head(iris_url)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;div data-pagedtable=&#34;false&#34;&gt;
-  &lt;script data-pagedtable-source type=&#34;application/json&#34;&gt;
-{&#34;columns&#34;:[{&#34;label&#34;:[&#34;&#34;],&#34;name&#34;:[&#34;_rn_&#34;],&#34;type&#34;:[&#34;&#34;],&#34;align&#34;:[&#34;left&#34;]},{&#34;label&#34;:[&#34;Id&#34;],&#34;name&#34;:[1],&#34;type&#34;:[&#34;int&#34;],&#34;align&#34;:[&#34;right&#34;]},{&#34;label&#34;:[&#34;SepalLengthCm&#34;],&#34;name&#34;:[2],&#34;type&#34;:[&#34;dbl&#34;],&#34;align&#34;:[&#34;right&#34;]},{&#34;label&#34;:[&#34;SepalWidthCm&#34;],&#34;name&#34;:[3],&#34;type&#34;:[&#34;dbl&#34;],&#34;align&#34;:[&#34;right&#34;]},{&#34;label&#34;:[&#34;PetalLengthCm&#34;],&#34;name&#34;:[4],&#34;type&#34;:[&#34;dbl&#34;],&#34;align&#34;:[&#34;right&#34;]},{&#34;label&#34;:[&#34;PetalWidthCm&#34;],&#34;name&#34;:[5],&#34;type&#34;:[&#34;dbl&#34;],&#34;align&#34;:[&#34;right&#34;]},{&#34;label&#34;:[&#34;Species&#34;],&#34;name&#34;:[6],&#34;type&#34;:[&#34;chr&#34;],&#34;align&#34;:[&#34;left&#34;]}],&#34;data&#34;:[{&#34;1&#34;:&#34;1&#34;,&#34;2&#34;:&#34;5.1&#34;,&#34;3&#34;:&#34;3.5&#34;,&#34;4&#34;:&#34;1.4&#34;,&#34;5&#34;:&#34;0.2&#34;,&#34;6&#34;:&#34;Iris-setosa&#34;,&#34;_rn_&#34;:&#34;1&#34;},{&#34;1&#34;:&#34;2&#34;,&#34;2&#34;:&#34;4.9&#34;,&#34;3&#34;:&#34;3.0&#34;,&#34;4&#34;:&#34;1.4&#34;,&#34;5&#34;:&#34;0.2&#34;,&#34;6&#34;:&#34;Iris-setosa&#34;,&#34;_rn_&#34;:&#34;2&#34;},{&#34;1&#34;:&#34;3&#34;,&#34;2&#34;:&#34;4.7&#34;,&#34;3&#34;:&#34;3.2&#34;,&#34;4&#34;:&#34;1.3&#34;,&#34;5&#34;:&#34;0.2&#34;,&#34;6&#34;:&#34;Iris-setosa&#34;,&#34;_rn_&#34;:&#34;3&#34;},{&#34;1&#34;:&#34;4&#34;,&#34;2&#34;:&#34;4.6&#34;,&#34;3&#34;:&#34;3.1&#34;,&#34;4&#34;:&#34;1.5&#34;,&#34;5&#34;:&#34;0.2&#34;,&#34;6&#34;:&#34;Iris-setosa&#34;,&#34;_rn_&#34;:&#34;4&#34;},{&#34;1&#34;:&#34;5&#34;,&#34;2&#34;:&#34;5.0&#34;,&#34;3&#34;:&#34;3.6&#34;,&#34;4&#34;:&#34;1.4&#34;,&#34;5&#34;:&#34;0.2&#34;,&#34;6&#34;:&#34;Iris-setosa&#34;,&#34;_rn_&#34;:&#34;5&#34;},{&#34;1&#34;:&#34;6&#34;,&#34;2&#34;:&#34;5.4&#34;,&#34;3&#34;:&#34;3.9&#34;,&#34;4&#34;:&#34;1.7&#34;,&#34;5&#34;:&#34;0.4&#34;,&#34;6&#34;:&#34;Iris-setosa&#34;,&#34;_rn_&#34;:&#34;6&#34;}],&#34;options&#34;:{&#34;columns&#34;:{&#34;min&#34;:{},&#34;max&#34;:[10]},&#34;rows&#34;:{&#34;min&#34;:[10],&#34;max&#34;:[10]},&#34;pages&#34;:{}}}
-  &lt;/script&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;parámetros-de-readcsv&#34;&gt;Parámetros de &lt;em&gt;&lt;strong&gt;read.csv()&lt;/strong&gt;&lt;/em&gt;&lt;/h2&gt;
-&lt;p&gt;Ahora nos fijaremos en los parámetros que podemos utilizar con la función &lt;em&gt;&lt;strong&gt;read.csv()&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;em&gt;header=TRUE&lt;/em&gt;: nos indica si el fichero incorpora cabecera&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;em&gt;sep = &amp;ldquo;,&amp;rdquo;&lt;/em&gt;: para indicar el caracter separador de campos&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;em&gt;na.strings=&amp;quot;&amp;quot;&lt;/em&gt;: para indicar qué valor consideramos como &lt;em&gt;NA&lt;/em&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;em&gt;stringsAsFactors=FALSE&lt;/em&gt;: para indicar si los campos de tipo caracter los consideramos como &lt;em&gt;factor&lt;/em&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Primer post</title>
       <link>https://somiedo.github.io/post/primer-post/</link>
       <pubDate>Thu, 25 Nov 2021 00:00:00 +0000</pubDate>
