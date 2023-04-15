@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Pablo García</title>
-    <link>https://somiedo.github.io/post/</link>
-      <atom:link href="https://somiedo.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
+    <title>productividad | Pablo García</title>
+    <link>https://somiedo.github.io/tag/productividad/</link>
+      <atom:link href="https://somiedo.github.io/tag/productividad/index.xml" rel="self" type="application/rss+xml" />
+    <description>productividad</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es-Es</language><copyright>© 2023 Pablo García</copyright><lastBuildDate>Sat, 15 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://somiedo.github.io/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png</url>
-      <title>Posts</title>
-      <link>https://somiedo.github.io/post/</link>
+      <title>productividad</title>
+      <link>https://somiedo.github.io/tag/productividad/</link>
     </image>
     
     <item>
@@ -107,43 +107,6 @@
 &lt;p&gt;Logseq también te permite exportar tus notas a diferentes formatos, como Markdown, HTML y PDF. Puedes acceder a la función de exportación haciendo clic en &amp;ldquo;Archivo&amp;rdquo; y luego en &amp;ldquo;Exportar&amp;rdquo;. También puedes sincronizar tus notas con otros servicios de almacenamiento en la nube, como Google Drive o Dropbox, para asegurarte de que siempre tengas una copia de seguridad de tus notas.&lt;/p&gt;
 &lt;h1 id=&#34;conclusión&#34;&gt;Conclusión&lt;/h1&gt;
 &lt;p&gt;Logseq es una herramienta potente y versátil que puede ayudarte a organizar y explorar tus pensamientos y notas de una manera intuitiva y efectiva. Con este manual básico, deberías tener suficiente información para comenzar a utilizar Logseq y aprovechar al máximo sus características y funcionalidades.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Primer post</title>
-      <link>https://somiedo.github.io/post/primer-post/</link>
-      <pubDate>Thu, 25 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://somiedo.github.io/post/primer-post/</guid>
-      <description>&lt;p&gt;Hoy comienzo una nueva andadura, sí, voy a intentar plasmar en este blog los conocimientos que he ido adquiriendo a lo largo del tiempo y que creo que pueden ser valiosos para todos los amantes de las Ciencias de la Vida. Escribiré sobre diferentes materias que pueden aportar interés como puede ser el lenguaje de programación &lt;strong&gt;Python&lt;/strong&gt; y también el lenguaje estadístico &lt;strong&gt;R&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-la-mejor-forma-de-aprender-es-enseñando-lo-que-sabes&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./profesor_pizarra.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      La mejor forma de aprender es enseñando lo que sabes
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;La sabiduría no es producto de la escolarización, sino de un intento a lo largo de la vida de adquirirla &lt;em&gt;&amp;ldquo;Albert Einstein&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Además de escribir sobre estos dos lenguajes que son imprescindibles en cualquier investigador que hoy se dedique a la ciencia, desarrollaré artículos sobre otras herramientas que deben ser conocidas por cualquier estudiante ya que pueden ayudarle tanto en su carrera formativa como en su posterior vida laboral. Así, escribiré sobre lenguaje &lt;strong&gt;Markdown&lt;/strong&gt;, referencias bibliográficas en los trabajos, bases de datos, editores de texto, y cualquier otro tema que seguro resultará de interés.&lt;/p&gt;
-&lt;p&gt;También algo sobre &lt;strong&gt;GitHub&lt;/strong&gt; que para eso estamos donde estamos. Me centraré en lo más básico para hacernos la vida más fácil a la hora de tener nuestro código bien respaldado.&lt;/p&gt;
 </description>
     </item>
     

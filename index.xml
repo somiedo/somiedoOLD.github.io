@@ -33,6 +33,104 @@
     </item>
     
     <item>
+      <title>Tomando notas con Logseq</title>
+      <link>https://somiedo.github.io/post/tomando-notas-con-logseq/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://somiedo.github.io/post/tomando-notas-con-logseq/</guid>
+      <description>&lt;h1 id=&#34;introducción&#34;&gt;Introducción&lt;/h1&gt;
+&lt;p&gt;Logseq es una herramienta de toma de notas y organización personal que se basa en Markdown y enlaces bidireccionales. Logseq permite crear notas interconectadas con enlaces bidireccionales para ayudarte a navegar y explorar tus pensamientos de una manera más intuitiva. Este manual está diseñado para darte una introducción a las características y funcionalidades básicas de Logseq.&lt;/p&gt;
+&lt;h1 id=&#34;instalación-y-configuración&#34;&gt;Instalación y configuración&lt;/h1&gt;
+&lt;p&gt;Logseq es una aplicación de escritorio que funciona en Windows, macOS y Linux. Puedes descargar Logseq desde su página web oficial en &lt;a href=&#34;https://logseq.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://logseq.com/&lt;/a&gt; y seguir las instrucciones de instalación. Una vez instalado, puedes abrir la aplicación y comenzar a crear notas.&lt;/p&gt;
+&lt;h1 id=&#34;creación-de-notas&#34;&gt;Creación de notas&lt;/h1&gt;
+&lt;p&gt;Para crear una nueva nota en Logseq, haz clic en el botón &amp;ldquo;Nueva nota&amp;rdquo; o presiona la tecla &amp;ldquo;N&amp;rdquo;. También puedes crear una nueva nota desde cualquier otra nota haciendo clic en el botón &amp;ldquo;+&amp;rdquo;, que aparece cuando pasas el cursor sobre el encabezado de una nota. Una vez que hayas creado la nueva nota, se abrirá automáticamente para que puedas comenzar a escribir.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hoy en día, todo el mundo es un buscador de conocimiento. Logseq es la herramienta para flujos de trabajo que necesitan de una gran cantidad de información&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;dar-formato-a-tus-notas-con-markdown&#34;&gt;Dar formato a tus notas con Markdown&lt;/h2&gt;
+&lt;p&gt;Las notas en Logseq están escritas en Markdown, lo que significa que puedes agregar títulos, viñetas, enlaces y otros elementos de Markdown para dar formato a tus notas. Aquí hay algunos ejemplos de cómo puedes dar formato a tus notas con Markdown:&lt;/p&gt;
+&lt;h3 id=&#34;títulos&#34;&gt;Títulos&lt;/h3&gt;
+&lt;p&gt;Para agregar un título a tu nota, simplemente comienza la línea con uno o más símbolos &amp;ldquo;#&amp;rdquo; seguidos de un espacio y el texto del título. Por ejemplo:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Este es un título de nivel 1
+## Este es un título de nivel 2
+### Este es un título de nivel 3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;viñetas&#34;&gt;Viñetas&lt;/h3&gt;
+&lt;p&gt;Para agregar viñetas a tu nota, puedes utilizar los símbolos &amp;ldquo;-&amp;rdquo; o &amp;ldquo;*&amp;rdquo; seguidos de un espacio y el texto de la viñeta. Por ejemplo:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- Esta es una viñeta
+- Esta es otra viñeta
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;enlaces&#34;&gt;Enlaces&lt;/h3&gt;
+&lt;p&gt;Para agregar un enlace a tu nota, utiliza la sintaxis &lt;code&gt;[texto del enlace](URL del enlace)&lt;/code&gt;. Por ejemplo:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Este es un [enlace a la página de Logseq](https://logseq.com/)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-escritorio-de-logseq&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./logseq-escritorio.webp&#34; alt=&#34;webp&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Escritorio de Logseq
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;agregar-imágenes&#34;&gt;Agregar imágenes&lt;/h2&gt;
+&lt;p&gt;También puedes agregar imágenes a tus notas utilizando Markdown. Para hacerlo, debes cargar la imagen a un servidor de imágenes en línea y obtener la URL de la imagen. Luego, utiliza la sintaxis &lt;code&gt;![texto alternativo de la imagen](URL de la imagen)&lt;/code&gt; para agregar la imagen a tu nota. Por ejemplo:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;![Gato durmiendo en una caja](https://images.unsplash.com/photo-1601892034823-d7b0bcfaa324?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2VjdXJpdHklMjBjYXJlJTIwZnJvbSUyMGJvZHl8ZW58MHx8MHx8&amp;amp;ixlib=rb-1.2.1&amp;amp;w=1000&amp;amp;q=80)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;enlazar-a-otras-notas&#34;&gt;Enlazar a otras notas&lt;/h2&gt;
+&lt;p&gt;Como mencioné en el apartado de &amp;ldquo;Enlaces bidireccionales&amp;rdquo;, Logseq te permite crear enlaces bidireccionales entre notas para navegar fácilmente entre ellas. Para crear un enlace a otra nota en Logseq, simplemente escribe el nombre de la nota entre corchetes dobles &lt;code&gt;[[nombre de la nota]]&lt;/code&gt;. Por ejemplo:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Esto es una referencia a otra nota: [[Mi otra nota]]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Cuando guardes la nota, Logseq automáticamente creará un enlace a la nota &amp;ldquo;Mi otra nota&amp;rdquo;. Si haces clic en el enlace, se abrirá la nota correspondiente.&lt;/p&gt;
+&lt;h1 id=&#34;enlaces-bidireccionales&#34;&gt;Enlaces bidireccionales&lt;/h1&gt;
+&lt;p&gt;Una de las características más potentes de Logseq es la capacidad de crear enlaces bidireccionales entre notas. Esto significa que cuando creas un enlace a una nota desde otra nota, Logseq automáticamente crea un enlace de vuelta desde la nota original a la nota nueva. Esto facilita la navegación y la creación de conexiones entre tus notas.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, si tienes una nota sobre &amp;ldquo;Proyectos&amp;rdquo; y otra nota sobre &amp;ldquo;Tareas&amp;rdquo;, puedes crear un enlace bidireccional entre ellas para mostrar que &amp;ldquo;Proyectos&amp;rdquo; contiene tareas y que las tareas pertenecen a proyectos.&lt;/p&gt;
+&lt;h2 id=&#34;cómo-crear-enlaces-bidireccionales&#34;&gt;Cómo crear enlaces bidireccionales&lt;/h2&gt;
+&lt;p&gt;Para crear un enlace bidireccional entre dos notas en Logseq, sigue estos pasos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Abre la nota desde la que deseas crear un enlace a otra nota.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Escribe el nombre de la nota a la que deseas enlazar entre corchetes dobles &lt;code&gt;[[nombre de la nota]]&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Guarda la nota.&lt;/p&gt;
+&lt;p&gt;Logseq detectará automáticamente que has creado un enlace a otra nota y creará un enlace bidireccional desde esa nota de vuelta a la nota original. Si haces clic en cualquiera de los enlaces, se abrirá la nota correspondiente.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cómo-utilizar-los-enlaces-bidireccionales&#34;&gt;Cómo utilizar los enlaces bidireccionales&lt;/h2&gt;
+&lt;p&gt;Los enlaces bidireccionales pueden ayudarte a crear una estructura de conocimiento más cohesiva y conectada. Puedes utilizarlos para:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Crear una jerarquía de notas relacionadas, por ejemplo, notas sobre un tema más amplio y notas más específicas que se relacionan con ese tema.&lt;/li&gt;
+&lt;li&gt;Visualizar las relaciones entre diferentes temas y conceptos, lo que puede ayudarte a ver patrones y conexiones que de otra manera podrían pasar desapercibidos.&lt;/li&gt;
+&lt;li&gt;Facilitar la navegación entre diferentes notas, lo que puede ahorrarte tiempo y hacer que sea más fácil encontrar la información que necesitas.&lt;/li&gt;
+&lt;li&gt;Los enlaces bidireccionales son una de las características más útiles y potentes de Logseq. Utilizarlos puede ayudarte a crear una estructura de conocimiento más conectada y cohesiva, lo que puede mejorar tu capacidad para aprender y recordar información.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;búsquedas-y-consultas&#34;&gt;Búsquedas y consultas&lt;/h1&gt;
+&lt;p&gt;Logseq también ofrece una función de búsqueda y consulta muy potente que te permite encontrar notas en función de palabras clave, etiquetas y otros criterios. Para buscar notas, haz clic en la barra de búsqueda en la parte superior de la pantalla o presiona la tecla &amp;ldquo;/&amp;rdquo; para abrir la barra de búsqueda. Puedes escribir palabras clave o etiquetas y Logseq mostrará todas las notas relacionadas.&lt;/p&gt;
+&lt;p&gt;También puedes utilizar consultas avanzadas en Logseq para realizar búsquedas más específicas. Por ejemplo, puedes buscar notas que contengan una palabra clave específica y una etiqueta específica utilizando la sintaxis &amp;ldquo;palabra clave #etiqueta&amp;rdquo;.&lt;/p&gt;
+&lt;h1 id=&#34;exportación-y-sincronización&#34;&gt;Exportación y sincronización&lt;/h1&gt;
+&lt;p&gt;Logseq también te permite exportar tus notas a diferentes formatos, como Markdown, HTML y PDF. Puedes acceder a la función de exportación haciendo clic en &amp;ldquo;Archivo&amp;rdquo; y luego en &amp;ldquo;Exportar&amp;rdquo;. También puedes sincronizar tus notas con otros servicios de almacenamiento en la nube, como Google Drive o Dropbox, para asegurarte de que siempre tengas una copia de seguridad de tus notas.&lt;/p&gt;
+&lt;h1 id=&#34;conclusión&#34;&gt;Conclusión&lt;/h1&gt;
+&lt;p&gt;Logseq es una herramienta potente y versátil que puede ayudarte a organizar y explorar tus pensamientos y notas de una manera intuitiva y efectiva. Con este manual básico, deberías tener suficiente información para comenzar a utilizar Logseq y aprovechar al máximo sus características y funcionalidades.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Primer post</title>
       <link>https://somiedo.github.io/post/primer-post/</link>
       <pubDate>Thu, 25 Nov 2021 00:00:00 +0000</pubDate>
